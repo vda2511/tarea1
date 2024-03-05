@@ -1,0 +1,81 @@
+#principal
+{
+    width: 2000px;
+    height: 800px;
+    background-color: blueviolet;
+}
+#rostro {
+    width: 200px;
+    height: 200px;
+    background: #ffcccb;
+    position: relative;
+    border-radius: 50%;
+  }
+  
+  #sombrero {
+    width: 120px;
+    height: 60px;
+    background: #000;
+    position: absolute;
+    border-radius: 0 0 70% 70%/ 0 0 100% 100%;
+    top: -50px;
+    left: 40px;
+  }
+  
+  #sombrero::before {
+    content: "";
+    width: 100px;
+    height: 20px;
+    background: #000;
+    position: absolute;
+    border-radius: 0 0 100% 100%/ 0 0 100% 100%;
+    top: 60px;
+    left: 10px;
+  }
+  
+  #ojo-izquierdo, #ojo-derecho {
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    position: absolute;
+    border-radius: 50%;
+    top: 50px;
+  }
+  
+  #iris-izquierdo, #iris-derecho {
+    width: 20px;
+    height: 20px;
+    background: #000;
+    position: absolute;
+    border-radius: 50%;
+    top: 15px;
+    left: 15px;
+  }
+  
+  #ojo-izquierdo {
+    left: 30px;
+  }
+  
+  #ojo-derecho {
+    right: 30px;
+  }
+  
+  #nariz {
+    width: 30px;
+    height: 30px;
+    background: #f00;
+    position: absolute;
+    border-radius: 50%;
+    top: 100px;
+    left: 85px;
+  }
+  
+  #boca {
+    width: 120px;
+    height: 60px;
+    background: #f00;
+    position: absolute;
+    border-radius: 50%;
+    top: 140px;
+    left: 40px;
+  }
